@@ -1,0 +1,101 @@
+@media (max-width: 670px) {
+
+  header {
+    text-align: center;
+    height: 90px;
+  }
+
+  header h1 {
+    float: none;
+    margin-left: 0;
+  }
+
+  .header-list {
+    float: none;
+    margin-top: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header-list li {
+    float: left;
+    margin-right: 0px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .top-wrapper {
+    background-image: url(../img/main-vsual-nontitle.png);
+    background-size: cover;
+    height: 400px;
+    padding-top: 40px;
+  }
+
+  .top-wrapper h2 {
+    margin-top: 0px;
+    padding-top: 80px;
+    font-size: 25px;
+  }
+
+  .top-wrapper p {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+  }
+
+  .main-wrapper img {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 10px 30px;
+  }
+
+  .main-wrapper p {
+    float: none;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .course-wrapper {
+    margin-top: 30px;
+  }
+
+  .course-wrapper ul {
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .couse-wrapper li {
+    margin-top: 20px;
+  }
+
+  .course-wrapper li img {
+    width: 100%;
+  }
+
+  .course-wrapper p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  input {
+    width: 100%;
+    display: inline-block;
+    padding: 8px 5px;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .form-wrapper a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: rgb(248, 94, 94);
+    margin-top: 15px;
+    width: 100%;
+  }
+}
